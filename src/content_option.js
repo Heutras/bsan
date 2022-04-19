@@ -170,41 +170,41 @@ const contactConfig = {
 };
 
 const socialprofils = {
-  //http://instagram.com/berkay.saan   bu instagram linki bunu ekle diger social profilleri cikar
   github: "https://github.com/BerkaySan",
-  facebook: "https://facebook.com",
-  linkedin: "http://linkedin.com/in/muhammed-berkay-şan-0b1095184",
-  twitter: "https://twitter.com",
-  youtube: "https://youtube.com",
-  twitch: "https://twitch.com"
+  instagram: "http://instagram.com/berkay.saan",
+  linkedin: "http://linkedin.com/in/muhammed-berkay-şan-0b1095184"
 };
 
 const testimonials = [
   /*yorumlarin listesi */
   {
-    img: "/images/meric.jpeg",
+    img: "./meric.jpeg",
     comment:
       "Hunger of information and excitement of new techs never ends in this man.",
     name: "Meriç Demirörs",
-    title: "AI Developer"
+    title: "AI Developer",
+    header: "Perfect"
   },
   {
-    img: "/images/ismail.jpeg",
+    img: "./ismail.jpeg",
     comment: "Always innovative.",
     name: "İsmail Buğra Öz",
-    title: "AI Developer"
+    title: "AI Developer",
+    header: "Perfect"
   },
   {
-    img: "/images/siyah.jpeg",
+    img: "./siyah.jpeg",
     comment: "I love this man.",
     name: "Doruk Ata Özkara",
-    title: "Game Developer"
+    title: "Game Developer",
+    header: "Perfect"
   },
   {
-    img: "/images/siyah.jpeg",
+    img: "./siyah.jpeg",
     comment: "I love this man.",
     name: "Alper Çelik",
-    title: "Web Designer"
+    title: "Web Designer",
+    header: "Perfect"
   }
 ];
 export {
