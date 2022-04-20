@@ -4,6 +4,7 @@
   text-align: center;
   justify-content: center;
   font-family: poppins;
+  margin-top: 200px;
 }
 .carousel-img {
   display: block;
@@ -27,4 +28,9 @@
 }
 .client-info > .title {
   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .carousel-container {
+    margin-top: 100px;
+  }
 }
