@@ -1,3 +1,3 @@
 ### description
-React Portfolio
+source code for
 www.msan.aidevs.dev
