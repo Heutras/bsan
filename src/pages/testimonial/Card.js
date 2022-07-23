@@ -1,8 +1,7 @@
 import React from "react";
-export const Card = (props) => {
+const Card = (props) => {
   return (
-    <div className="carousel-item">
-      <h2>{props.header}</h2>
+    <div>
       <div className="testimonial_content">
         <p>{props.comment}</p>
       </div>
@@ -16,3 +15,5 @@ export const Card = (props) => {
     </div>
   );
 };
+
+export default Card;

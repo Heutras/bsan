@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { dataportfolio } from "../../content_option";
 
 export const Portfolio = () => {
   return (
@@ -10,8 +10,11 @@ export const Portfolio = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Portfolio | {meta.title} </title>{" "}
-          <meta name="description" content={meta.description} />
+          <title> Portfolio | Muhammed Berkay San </title>{" "}
+          <meta
+            name="description"
+            content="I’m Berkay San AI developer _ Computer Engineer,currently living in Ankara"
+          />
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">

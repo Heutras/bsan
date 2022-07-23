@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import * as emailjs from "emailjs-com";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
@@ -69,8 +68,11 @@ export const ContactUs = () => {
       <Container>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>{meta.title} | Contact</title>
-          <meta name="description" content={meta.description} />
+          <title>Muhammed Berkay San | Contact</title>
+          <meta
+            name="description"
+            content="I’m Berkay San AI developer _ Computer Engineer,currently living in Ankara"
+          />
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">

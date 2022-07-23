@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
+import { introdata } from "../../content_option";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
@@ -11,8 +11,11 @@ export const Home = () => {
       <section id="home" className="home">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> {meta.title}</title>
-          <meta name="description" content={meta.description} />
+          <title> Muhammed Berkay San</title>
+          <meta
+            name="description"
+            content="I’m Berkay San AI developer _ Computer Engineer,currently living in Ankara"
+          />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div

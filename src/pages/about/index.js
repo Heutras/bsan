@@ -2,13 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  dataabout,
-  meta,
-  worktimeline,
-  skills,
-  services
-} from "../../content_option";
+import { worktimeline, skills, services } from "../../content_option";
 
 export const About = () => {
   return (
@@ -16,8 +10,11 @@ export const About = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> About | {meta.title}</title>
-          <meta name="description" content={meta.description} />
+          <title> About | Muhammed Berkay San</title>
+          <meta
+            name="description"
+            content="I’m Berkay San AI developer _ Computer Engineer,currently living in Ankara"
+          />
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">
@@ -27,11 +24,19 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+            <h3 className="color_sec py-4">a bit about my self</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p>
+                I am a 3rd year Artificial Intelligence Engineering student at
+                TOBB University of Economics and Technology. At the same time, I
+                am a Computer Engineering double major program student. My main
+                fields of study and research are artificial intelligence tools
+                and deep learning models used in finance. I love anything
+                computer-related in general. In my spare time, I deal with cyber
+                security, small applications.
+              </p>
             </div>
           </Col>
         </Row>

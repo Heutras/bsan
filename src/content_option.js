@@ -1,10 +1,3 @@
-const logotext = "SAN";
-const meta = {
-  title: "Muhammed Berkay San",
-  description:
-    "I’m Berkay San AI developer _ Computer Engineer,currently living in Ankara"
-}; /*Burayi degistirme */
-
 const introdata = {
   title: "I’m Berkay San",
   animated: {
@@ -175,7 +168,6 @@ const socialprofils = {
 };
 
 const testimonials = [
-  /*yorumlarin listesi */
   {
     img: "./meric.jpeg",
     comment:
@@ -207,7 +199,6 @@ const testimonials = [
   }
 ];
 export {
-  meta,
   dataabout,
   dataportfolio,
   worktimeline,
@@ -216,6 +207,5 @@ export {
   introdata,
   contactConfig,
   socialprofils,
-  logotext,
   testimonials
 };

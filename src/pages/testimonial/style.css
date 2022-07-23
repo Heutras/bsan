@@ -1,6 +1,6 @@
 .carousel-container {
   padding: 40px;
-  color: white;
+  color: var(--text-color);
   text-align: center;
   justify-content: center;
   font-family: poppins;
